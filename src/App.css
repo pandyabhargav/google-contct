@@ -1,0 +1,93 @@
+thead{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+}
+.heading{
+    font-size: 25px;
+}
+.body{
+    position: relative;
+}
+.wraper{
+    position: relative;
+}
+form i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 99999;
+}
+
+form .fbt{
+    background-color: #C2E7FF;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+   
+}
+
+.profile-img img{
+   width: 100px;
+   height: 100px;
+}
+.profile-img .img-add{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.img-add{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #0D6EFD;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-white1{
+    background-color: #FFFFFF;
+}
+.bg-white1 h1{
+    font-weight: 400;
+}
+.signin{
+    position: absolute;
+    background-color: #F8FAFD;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-size: cover;
+}
+.signin img{
+    width: 70px;
+}
+.singin-bg{
+    background-color: #F0F4F9;
+}
+.bt{
+    background-color: transparent;
+    color: #0D6EFD;
+    border: none;
+}
+.bt:hover{
+    background-color: #EDF0F5;
+    color: #0D6EFD;
+}
+.bd{
+    border-radius: 30px;
+}
+.signin button img{
+    width: 40px;
+   
+}
